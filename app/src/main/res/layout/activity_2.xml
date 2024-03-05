@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity2">
     <TextView
-        android:id="@+id/tvSkip1"
+        android:id="@+id/tvSkip2"
         android:layout_width="30.99dp"
         android:layout_height="20.05dp"
         android:layout_marginLeft="337dp"
@@ -17,19 +17,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="55dp"
+        android:layout_height="20.05dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="71dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvBack1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:text="Back"
+            android:textAlignment="center"
+            android:textColor="#007AFF"
+            android:textSize="14.58sp" />
+    </LinearLayout>
     <ImageView
-        android:id="@+id/img1"
-        android:layout_width="342dp"
-        android:layout_height="342dp"
-        android:layout_marginTop="118dp"
-        android:src="@drawable/pic1"
+        android:id="@+id/img2"
+        android:layout_width="223dp"
+        android:layout_height="304dp"
+        android:layout_marginTop="157dp"
+        android:src="@drawable/pic2"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginLeft="83dp"
+        android:layout_marginRight="84dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView01"
+        android:id="@+id/cardView03"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="446dp"
@@ -41,32 +63,28 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
-                android:id="@+id/tv02"
                 android:layout_width="286.16dp"
                 android:layout_height="90dp"
                 android:layout_marginLeft="51.95dp"
                 android:layout_marginTop="60dp"
                 android:lineHeight="44.75dp"
-                android:text="Manage your
-            notes easily"
+                android:text="Organize your thougts"
                 android:textAlignment="center"
                 android:textColor="#1C2121"
                 android:textSize="32.81sp" />
 
             <TextView
-                android:id="@+id/tv03"
                 android:layout_width="331.73dp"
                 android:layout_height="62.88dp"
                 android:layout_marginLeft="29.16dp"
                 android:layout_marginTop="5.74dp"
                 android:lineHeight="20.95dp"
-                android:text="A completely easy way to manage and customize your notes."
+                android:text="Most beautiful note taking application."
                 android:textAlignment="center"
                 android:textColor="#1C2121"
                 android:textSize="14.96dp"
                 tools:ignore="TextSizeCheck" />
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView02"
                 android:layout_width="340dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
@@ -75,7 +93,7 @@
                 app:cardBackgroundColor="#007AFF">
 
                 <TextView
-                    android:id="@+id/tvNext1"
+                    android:id="@+id/tvNext2"
                     android:textColor="#FFFFFF"
                     android:layout_width="38dp"
                     android:layout_height="37dp"

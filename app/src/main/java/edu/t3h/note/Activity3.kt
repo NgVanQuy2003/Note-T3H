@@ -5,15 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class MainActivity : AppCompatActivity() {
+class Activity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        findViewById<TextView>(R.id.tvNext1).setOnClickListener{
+        setContentView(R.layout.activity_3)
+        findViewById<TextView>(R.id.tvBack2).setOnClickListener{
             startActivity(Intent(this, Activity2::class.java))
-        }
-        findViewById<TextView>(R.id.tvSkip1).setOnClickListener{
-            startActivity(Intent(this, Activity3::class.java))
         }
     }
 }
